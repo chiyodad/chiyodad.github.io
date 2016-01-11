@@ -6,7 +6,7 @@
 name:               "Kiko"
 
 # URL
-baseurl:            "/Kiko"
+baseurl:            ""
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
 
@@ -16,7 +16,7 @@ markdown:           rdiscount
 # Navigation
 nav:
   - name:           "About"
-    href:           "//gfjaru.github.io/Kiko/about"
+    href:           "//kiko.gfjaru.com/about"
   - name:           "Download"
     href:           "//github.com/gfjaru/Kiko/releases"
 

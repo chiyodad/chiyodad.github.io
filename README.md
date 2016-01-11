@@ -1,2 +1,2 @@
-# about 
-Just eat tomaotes!
+# welcome
+Just Eat Tomatoes!

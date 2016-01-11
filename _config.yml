@@ -1,24 +1,24 @@
 # # # # # # # #
-#   K i k o   #
+#   Chiyodad  #
 # # # # # # # #
 
 # Basic
-name:               "Kiko"
+name:               "chiyodad"
 
 # URL
-baseurl:            ""
-#baseurl:            "" #For Root Domain
+baseurl:            "//chiyodad.github.io/tomato"
+#baseurl:           "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
 
 # Markdown
-markdown:           rdiscount
+markdown:           redcarpet
 
 # Navigation
 nav:
-  - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
+  - name:           "about"
+    href:           "//chiyodad.github.io/about"
+  - name:           "tomaoto"
+    href:           "//chiyodad.github.io/tomato"
 
 # Sass
 sass:

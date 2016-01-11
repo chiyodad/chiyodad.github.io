@@ -1,2 +1,2 @@
 # welcome
-Just Eat Tomatoes!
+Just eat tomatoes!

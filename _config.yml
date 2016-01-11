@@ -1,12 +1,12 @@
 # # # # # # # #
-#   Chiyodad  #
+#  chiyodad   #
 # # # # # # # #
 
 # Basic
 name:               "chiyodad"
 
 # URL
-baseurl:            "//chiyodad.github.io/tomato"
+baseurl:            ""
 #baseurl:           "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
 
@@ -17,7 +17,7 @@ markdown:           redcarpet
 nav:
   - name:           "about"
     href:           "//chiyodad.github.io/about"
-  - name:           "tomaoto"
+  - name:           "tomato"
     href:           "//chiyodad.github.io/tomato"
 
 # Sass

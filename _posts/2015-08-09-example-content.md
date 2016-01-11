@@ -1,5 +1,6 @@
 ---
 title: Example content
+permalink: /exmple/
 ---
 
 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper est in imperdiet molestie. Curabitur aliquet sem in ante venenatis.</p>

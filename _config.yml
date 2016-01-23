@@ -3,7 +3,7 @@
 # # # # # # # #
 
 # Basic
-name:               "chiyodad"
+name: chiyodad
 safe: true
 pygments: true
 lsi: false
@@ -15,9 +15,9 @@ baseurl:            ""
 permalink: pretty
 
 # Markdown
-markdown:           redcarpet
+markdown:  redcarpet
 redcarpet:
-    extensions: 
+    extensions:
       - no_intra_emphasis
       - fenced_code_blocks
       - tables

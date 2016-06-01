@@ -21,8 +21,6 @@ highliter: rouge
 nav:
   - name:           "about"
     href:           "//chiyodad.github.io/about"
-  - name:           "tomato"
-    href:           "//chiyodad.github.io/tomato"
 
 # Sass
 sass:

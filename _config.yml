@@ -5,7 +5,6 @@
 # Basic
 name: chiyodad
 safe: true
-pygments: true
 lsi: false
 
 # URL
@@ -15,17 +14,8 @@ baseurl:            ""
 permalink: pretty
 
 # Markdown
-markdown:  redcarpet
-redcarpet:
-    extensions:
-      - no_intra_emphasis
-      - fenced_code_blocks
-      - tables
-      - strikethrough
-      - superscript
-      - autolink
-      - hard_wrap
-
+markdown:  kramdown
+highliter: rouge
 
 # Navigation
 nav:

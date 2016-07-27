@@ -1,6 +1,0 @@
----
-published: true
-title: Django 시작하기
-layout: post
----
-컴잉순

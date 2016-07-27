@@ -31,9 +31,9 @@ nav:
   - name:           "about"
     href:           "/about"
   - name:           "blog"
-    href:           "/blog"
+    href:           "/blog/"
   - name:           "tomato"
-    href:           "/tomato"
+    href:           "/tomato/"
 
 # Sass
 sass:

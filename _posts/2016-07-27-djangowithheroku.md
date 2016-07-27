@@ -44,7 +44,7 @@ heroku	https://git.heroku.com/chiyodad.git (push)
 
 ```
 
-* cli 설치 경로
+* cli 설치 경로  
 `/usr/local/heroku and /usr/local/heroku/bin will be added to your PATH.`
 
 

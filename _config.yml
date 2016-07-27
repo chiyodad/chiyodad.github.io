@@ -11,8 +11,8 @@ lsi: false
 # URL
 baseurl:            ""
 #baseurl:           "" #For Root Domain
-#permalink:          /:year/:month/:day/:title.html
-permalink: pretty
+permalink:          /blog/:year/:month/:day/:title.html
+#permalink: pretty
 
 # Markdown
 markdown:  redcarpet
@@ -31,6 +31,8 @@ redcarpet:
 nav:
   - name:           "about"
     href:           "//chiyodad.github.io/about"
+  - name:           "blog"
+    href:           "//chiyodad.github.io/blog"
   - name:           "tomato"
     href:           "//chiyodad.github.io/tomato"
 

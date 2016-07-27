@@ -3,10 +3,16 @@
 # # # # # # # #
 
 # Basic
+title: fying in the dream
 name: chiyodad
 safe: true
 pygments: true
 lsi: false
+email: chiyodad@yahoo.com
+url: "http://chiyodad.com" # the base hostname & protocol for your site
+twitter_username: chiyodad
+github_username:  chiyodad
+
 
 # URL
 baseurl:            ""
@@ -15,16 +21,9 @@ permalink:          /blog/:year/:month/:day/:title.html
 #permalink: pretty
 
 # Markdown
-markdown:  redcarpet
-redcarpet:
-    extensions:
-      - no_intra_emphasis
-      - fenced_code_blocks
-      - tables
-      - strikethrough
-      - superscript
-      - autolink
-      - hard_wrap
+kramdown:
+  input: GFM
+  # syntax_highlighter: rouge
 
 
 # Navigation
@@ -38,7 +37,8 @@ nav:
 
 # Sass
 sass:
-  style:            :compressed
+  sass_dir: _sass
+  style: compressed  
 
 # Scopes
 defaults:
@@ -54,3 +54,9 @@ defaults:
       type:         "posts"
     values:
 layout:       "post"
+
+paginate: 4
+
+author: chiyodad
+
+gems: [jekyll-paginate]

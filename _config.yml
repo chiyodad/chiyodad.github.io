@@ -8,19 +8,24 @@ safe: true
 lsi: false
 
 # URL
-baseurl:            ""
+baseurl:            "/blog"
 #baseurl:           "" #For Root Domain
 #permalink:          /:year/:month/:day/:title.html
 permalink: pretty
 
 # Markdown
-markdown:  kramdown
-highliter: rouge
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
 
 # Navigation
 nav:
   - name:           "about"
     href:           "//chiyodad.github.io/about"
+  - name:           "blog"
+    href:           "//chiyodad.github.io/blog"
 
 # Sass
 sass:

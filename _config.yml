@@ -5,25 +5,34 @@
 # Basic
 name: chiyodad
 safe: true
+pygments: true
 lsi: false
 
 # URL
 baseurl:            ""
 #baseurl:           "" #For Root Domain
-permalink:          /blog/:year/:month/:day/:title.html
-#permalink: pretty
+#permalink:          /:year/:month/:day/:title.html
+permalink: pretty
 
 # Markdown
-markdown: kramdown
-excerpt_separator: "\n\n"
+markdown:  redcarpet
+redcarpet:
+    extensions:
+      - no_intra_emphasis
+      - fenced_code_blocks
+      - tables
+      - strikethrough
+      - superscript
+      - autolink
+      - hard_wrap
 
 
 # Navigation
 nav:
   - name:           "about"
     href:           "//chiyodad.github.io/about"
-  - name:           "blog"
-    href:           "//chiyodad.github.io/blog"
+  - name:           "tomato"
+    href:           "//chiyodad.github.io/tomato"
 
 # Sass
 sass:
@@ -42,4 +51,4 @@ defaults:
       path:         ""
       type:         "posts"
     values:
-      layout:       "post"
+layout:       "post"

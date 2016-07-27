@@ -8,17 +8,15 @@ safe: true
 lsi: false
 
 # URL
-baseurl:            "/blog"
+baseurl:            ""
 #baseurl:           "" #For Root Domain
-#permalink:          /:year/:month/:day/:title.html
-permalink: pretty
+permalink:          /blog/:year/:month/:day/:title.html
+#permalink: pretty
 
 # Markdown
-markdown:    redcarpet
+markdown: kramdown
 excerpt_separator: "\n\n"
 
-redcarpet:
-  extensions: []
 
 # Navigation
 nav:

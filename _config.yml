@@ -14,11 +14,11 @@ baseurl:            "/blog"
 permalink: pretty
 
 # Markdown
-markdown:    kramdown
-highlighter: rouge
-lsi:         false
+markdown:    redcarpet
 excerpt_separator: "\n\n"
-incremental: false
+
+redcarpet:
+  extensions: []
 
 # Navigation
 nav:

@@ -8,7 +8,7 @@ name: chiyodad
 safe: true
 lsi: false
 email: chiyodad@yahoo.com
-url: "http://chiyodad.com" # the base hostname & protocol for your site
+url: "http://chiyodad.github.io" # the base hostname & protocol for your site
 twitter_username: chiyodad
 github_username:  chiyodad
 
@@ -29,8 +29,6 @@ kramdown:
 nav:
   - name:           "about"
     href:           "/about"
-  - name:           "blog"
-    href:           "/blog/"
   - name:           "tomato"
     href:           "/tomato/"
 

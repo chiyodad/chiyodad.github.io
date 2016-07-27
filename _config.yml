@@ -6,7 +6,6 @@
 title: fying in the dream
 name: chiyodad
 safe: true
-pygments: true
 lsi: false
 email: chiyodad@yahoo.com
 url: "http://chiyodad.com" # the base hostname & protocol for your site
@@ -23,7 +22,7 @@ permalink:          /blog/:year/:month/:day/:title.html
 # Markdown
 kramdown:
   input: GFM
-  # syntax_highlighter: rouge
+  syntax_highlighter: rouge
 
 
 # Navigation

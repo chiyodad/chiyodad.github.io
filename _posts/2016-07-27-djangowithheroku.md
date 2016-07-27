@@ -3,12 +3,12 @@ published: true
 title: Heroku 에 Django Project 올리기
 layout: post
 ---
-### Starter Template을 이용해 Django 개발
+### Heroky Starter Template 으로  Django 개발
 
-1. template 을 다운 받기
-https://github.com/heroku/heroku-django-template
+1. template 다운 받기  
+`https://github.com/heroku/heroku-django-template`
 
-2. 아예 처음 시작부터 template 기반으로 시작하기
+2. 아예 처음부터 template 기반으로 시작하기
 
 ```
 $ django-admin.py startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile helloworld
@@ -18,9 +18,9 @@ $ pip freeze > requirement.txt  # 설치 패키지 정보를 파일로 남김
 * runtime.txt 를 수정하여 python 버전 수정할 것
 
 ### Heroku Toolbelt 설치
-https://toolbelt.heroku.com/
+`https://toolbelt.heroku.com/`
 
-#### 설치 후 heroku CLI 설치와 로그인
+#### 설치 후 heroku CLI 로그인
 ```
 $ heroku login
 Enter your Heroku credentials.

@@ -3,7 +3,7 @@ published: true
 title: Heroku 에 Django Project 올리기
 layout: post
 ---
-### Heroky Starter Template 으로  Django 개발
+### Heroku Starter Template 으로  Django 개발하기
 
 1. template 다운 받기  
 `https://github.com/heroku/heroku-django-template`

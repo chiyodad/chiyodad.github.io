@@ -1,6 +1,6 @@
 ---
 published: true
-title: Wordpress 타사이트 사용자 정보를 통해 회원 생성 후 로그인하기
+title: 타사이트 사용자 정보를 통해 회원 생성 후 로그인하기
 layout: post
 ---
 

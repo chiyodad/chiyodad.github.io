@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 
-permerlink : /2017-12-20/
+title: 내가 쓰러진 그곳에서
+permerlink : /christmas/
 ---
 # 내가 쓰러진 그곳에서  
 
